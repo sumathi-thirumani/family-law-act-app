@@ -364,7 +364,7 @@
                 <b>Family Justice Services</b>
             </div>
             <div style="margin-top:10px;font-size:11pt;">
-                <a href="https://www2.gov.bc.ca/gov/content/life-events/divorce/family-justice/who-can-help/family-justice-counsellors"
+                <a href="https://www2.gov.bc.ca/gov/content/life-events/divorce/family-justice/who-can-help/family-justice-services-division/family-justice-counsellors"
                     target="_blank">Family justice counsellors</a> provide services to British Columbians going
                 through separation and divorce and are
                 specially trained to help families resolve their issues about guardianship, parenting

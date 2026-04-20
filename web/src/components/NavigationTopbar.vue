@@ -112,10 +112,10 @@
             <div class="mx-5 mb-5">
                 <p class="help-header" style="font-weight: 700;">JUSTICE ACCESS CENTRES & FAMILY JUSTICE CENTRES</p>                
                 <p> 
-                    <a href="https://www2.gov.bc.ca/gov/content/justice/about-bcs-justice-system/jac"
+                    <a href="https://www2.gov.bc.ca/gov/content/life-events/divorce/family-justice/who-can-help/family-justice-services-division/justice-access-centres"
                         target="_blank">Justice Access Centres
                     </a> and 
-                    <a href="https://www2.gov.bc.ca/gov/content?id=2E7DCCDAD5A94D61B777A80AE8639ABD"
+                    <a href="https://www2.gov.bc.ca/gov/content/life-events/divorce/family-justice/who-can-help/family-justice-services-division/family-justice-counsellors"
                         target="_blank">Family Justice Centres
                     </a>
                     across BC have Family Justice Counsellors and Child Support Officers specially trained to 
@@ -150,7 +150,7 @@
                     <p>Free Government Service:
                         <ul>
                             <li>
-                                <a  href="https://www2.gov.bc.ca/gov/content/life-events/divorce/family-justice/who-can-help/family-justice-counsellors"
+                                <a  href="https://www2.gov.bc.ca/gov/content/life-events/divorce/family-justice/who-can-help/family-justice-services-division/family-justice-counsellors"
                                     target="_blank">Family Justice Counsellors
                                 </a>
                             </li>
@@ -164,7 +164,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a  href="https://www.mediatebc.com/find-a-mediator?RosterTypeId=2"
+                                <a  href="https://mediatebc.com/our-services/roster/"
                                     target="_blank">Mediators
                                 </a>
                             </li>
@@ -201,10 +201,10 @@
                     </p>
                     <p>
                         Registry staff and staff at any
-                        <a href="https://www2.gov.bc.ca/gov/content/justice/about-bcs-justice-system/jac"
+                        <a href="https://www2.gov.bc.ca/gov/content/life-events/divorce/family-justice/who-can-help/family-justice-services-division/justice-access-centres"
                         target="_blank">Justice Access Centres
                     </a> and 
-                    <a href="https://www2.gov.bc.ca/gov/content?id=2E7DCCDAD5A94D61B777A80AE8639ABD"
+                    <a href="https://www2.gov.bc.ca/gov/content/life-events/divorce/family-justice/who-can-help/family-justice-services-division/family-justice-counsellors"
                         target="_blank">Family Justice Centres
                     </a>                         
                         can help answer questions about the forms but they cannot help complete your forms 

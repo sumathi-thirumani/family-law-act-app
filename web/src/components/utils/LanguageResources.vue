@@ -169,7 +169,7 @@
 				<li>
 					<a
 						target="_blank" 
-						href="https://www.immigrantlegal.ca/">
+						href="https://www.canada.ca/en/immigration-refugees-citizenship/campaigns/newcomers.html">
 						ImmigrantLegal.ca</a> - free legal information for newcomers to Canada and 
 						people working with them.
 				</li>
