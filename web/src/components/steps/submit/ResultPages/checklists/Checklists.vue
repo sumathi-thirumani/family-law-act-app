@@ -145,7 +145,8 @@ export default class Checklists extends Vue {
         {name:'NLCR',   title:'Notice of Removal of Lawyer for Child',                              pdfName:'Checklist_for_Notice_of_Removal_of_Lawyer_for_Child.pdf'},
         {name:'NLPR',   title:'Notice of Removal of Lawyer for Party',                              pdfName:'Checklist_for_Notice_of_Removal_of_Lawyer_for_Party.pdf'},
         {name:'ORD',    title:'Order – General',                                                    pdfName:'Checklist_for_Order_General.pdf'},
-        {name:'REF',    title:'Referral Request',                                                   pdfName:'Checklist_for_Referral_Request.pdf'},
+        // Removed "REF" in checklists array as per https://jira.justice.gov.bc.ca/browse/PFCF-539
+        // {name:'REF',    title:'Referral Request',                                                   pdfName:'Checklist_for_Referral_Request.pdf'},
         {name:'RFS',    title:'Request for Service of Documents',                                   pdfName:'Checklist_for_Request_for_Service_of_Documents.pdf'},
         {name:'RPS',    title:'Request for Service of Family Protection Order',                     pdfName:'Checklist_for_Request_for_Service_of_Family_Protection_Order.pdf'},
         {name:'AFF',    title:'Affidavit – General',                                                pdfName:'Checklist_for_Affidavit_General.pdf'},

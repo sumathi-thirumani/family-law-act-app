@@ -373,7 +373,8 @@
             this.currentPage = Number(this.steps[this.currentStep].currentPage)
             this.UpdatePageProgress({ currentStep: this.currentStep, currentPage: this.currentPage, progress: progress });
             
-            const otherFormFamilyTypes = ["AFF", "APS", "APSP", "CSV", "CONA", "COR", "CIFT", "EFSP", "FF", "FS", "GA", "NCD", "NDT", "PASE", "NPR", "NLC", "NLP", "NP", "NLCR", "NLPR", "ORD", "REF", "RQS", "RFS", "RPS", "TRIS", "SUM", "SCH", "SDH", "REQ", "RFT"];
+            // Removed "REF" in otherFormFamilyTypes array as per https://jira.justice.gov.bc.ca/browse/PFCF-539
+            const otherFormFamilyTypes = ["AFF", "APS", "APSP", "CSV", "CONA", "COR", "CIFT", "EFSP", "FF", "FS", "GA", "NCD", "NDT", "PASE", "NPR", "NLC", "NLP", "NP", "NLCR", "NLPR", "ORD", "RQS", "RFS", "RPS", "TRIS", "SUM", "SCH", "SDH", "REQ", "RFT"];
             const otherForms = FLA_Types.filter(type => otherFormFamilyTypes.includes(type.familyType));
             this.fileTypes = [];             
             

@@ -150,12 +150,14 @@ export default class InstructionsOtherForms extends Vue {
     scheduleTrial = {exist:false, step: 0} 
     attendCourt = {exist:false, step: 0}
 
-    serveGroup = ['NCD', 'NDT', 'NLC', 'NLP', 'NP', 'NLCR', 'NLPR', 'ORD', 'REF', 'RFS', 'RPS',
+    // Removed "REF" in serveGroup array as per https://jira.justice.gov.bc.ca/browse/PFCF-539
+    serveGroup = ['NCD', 'NDT', 'NLC', 'NLP', 'NP', 'NLCR', 'NLPR', 'ORD', 'RFS', 'RPS',
         'RQS', 'TRIS', 'AFF', 'EFSP', 'GA'
     ];
     serve7DaysGroup = ['RQS']
 
-    certificateGroup = ['NCD', 'NDT', 'NLC', 'NLP', 'NP', 'NLCR', 'NLPR', 'ORD', 'REF', 'RFS', 'RPS',
+    // Removed "REF" in certificateGroup array as per https://jira.justice.gov.bc.ca/browse/PFCF-539
+    certificateGroup = ['NCD', 'NDT', 'NLC', 'NLP', 'NP', 'NLCR', 'NLPR', 'ORD', 'RFS', 'RPS',
         'FS', 'NPR', 'RQS', 'TRIS', 'AFF', 'EFSP', 'GA' 
     ];
     certificateMustGroup = ['NPR', 'RQS'];

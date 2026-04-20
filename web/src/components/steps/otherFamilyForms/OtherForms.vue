@@ -164,7 +164,8 @@ export default class OtherForms extends Vue {
         {formName: 'Notice of Removal of Lawyer for Child',                 formNumber: 'Form 41'},
         {formName: 'Notice of Removal of Lawyer for Party',                 formNumber: 'Form 43'},
         {formName: 'Order – General',                                       formNumber: 'Form 44'},
-        {formName: 'Referral Request',                                      formNumber: 'Form 21'},
+        // Removed "REF" in certificateGroup array as per https://jira.justice.gov.bc.ca/browse/PFCF-539
+        // {formName: 'Referral Request',                                      formNumber: 'Form 21'},
         {formName: 'Request for Scheduling',                                formNumber: 'Form 39'},
         {formName: 'Request for Service of Documents',                      formNumber: 'PFA110'},
         {formName: 'Request for Service of Family Protection Order',        formNumber: 'PFA916'},

@@ -336,7 +336,8 @@ export default class SuccessPage extends Vue {
     checklistType='';
     applicationId = '';
     applicationDocumentTypes = [];
-    otherApplicationTypes = ['NCD', 'NDT', 'NLC', 'NLP', 'NP', 'NLCR', 'NLPR', 'ORD', 'REF', 'RFS', 'RPS'];
+    // Removed "REF" in otherApplicationTypes array as per https://jira.justice.gov.bc.ca/browse/PFCF-539
+    otherApplicationTypes = ['NCD', 'NDT', 'NLC', 'NLP', 'NP', 'NLCR', 'NLPR', 'ORD', 'RFS', 'RPS'];
     includesOtherForms = false;
 
     otherApplicationTypesInfo = [        
@@ -349,7 +350,8 @@ export default class SuccessPage extends Vue {
         {name:'NLCR',   title:'Notice of Removal of Lawyer for Child'},
         {name:'NLPR',   title:'Notice of Removal of Lawyer for Party'},
         {name:'ORD',    title:'Order – General'},
-        {name:'REF',    title:'Referral Request'},
+        // Removed "REF" in otherApplicationTypesInfo array as per https://jira.justice.gov.bc.ca/browse/PFCF-539
+        // {name:'REF',    title:'Referral Request'},
         {name:'RFS',    title:'Request for Service of Documents'},
         {name:'RPS',    title:'Request for Service of Family Protection Order'}
     ];  

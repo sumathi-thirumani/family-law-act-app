@@ -61,7 +61,8 @@ export const FLA_Types = [
     {pathway:"noticeRemoveLawyerChild",                     pdfType:"NLCR",  appType:"NLCR",         familyType:"NLCR",   otherForms:true, fullName:"Notice of Removal of Lawyer for Child"},
     {pathway:"noticeRemoveLawyerParty",                     pdfType:"NLPR",  appType:"NLPR",         familyType:"NLPR",   otherForms:true, fullName:"Notice of Removal of Lawyer for Party"},
     {pathway:"order",                                       pdfType:"ORD",   appType:"ORD",          familyType:"ORD",    otherForms:true, fullName:"Order – General"},
-    {pathway:"referralRequest",                             pdfType:"REF",   appType:"REF",          familyType:"REF",    otherForms:true, fullName:"Referral Request"},
+    // Removed "REF" in FLA_Types array as per https://jira.justice.gov.bc.ca/browse/PFCF-539
+    // {pathway:"referralRequest",                             pdfType:"REF",   appType:"REF",          familyType:"REF",    otherForms:true, fullName:"Referral Request"},
     {pathway:"requestScheduling",                           pdfType:"RQS",   appType:"RQS",          familyType:"RQS",    otherForms:true, fullName:"Request for Scheduling"},    
     {pathway:"requestServiceDocuments",                     pdfType:"RFS",   appType:"RFS",          familyType:"RFS",    otherForms:true, fullName:"Request for Service of Documents"},
     {pathway:"requestServiceFPO",                           pdfType:"RPS",   appType:"RPS",          familyType:"RPS",    otherForms:true, fullName:"Request for Service of Family Protection Order"},
