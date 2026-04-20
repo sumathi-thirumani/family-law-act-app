@@ -301,7 +301,7 @@ Vue.filter('getSurveyResults', function(survey, currentStep: number, currentPage
 	if(index>=0) supportingDocumentForm4.splice(index,1);
 	let flagForm4 = false;
 	
-	const questionResults: {name: string; value: any; title: string; inputType: string}[] =[];
+	const questionResults: {name: string; value: any; title: string; inputType: string, type?: string, displayValue?: string}[] =[];
 	for(const question of survey.currentPage.questions){		
 		
 		if(question.isVisible && question.name?.startsWith("parentFileForm4Info")){		
@@ -313,7 +313,7 @@ Vue.filter('getSurveyResults', function(survey, currentStep: number, currentPage
 				questionResults.push({name:question.name, value: question.questionValue, title:question.otherText, inputType:question.inputType})
 			} 
 			else if(survey.data[question.name]){			
-				questionResults.push({name:question.name, value: question.questionValue, title:question.title, inputType:question.inputType})
+				questionResults.push({name:question.name, value: question.questionValue, title:question.title, inputType:question.inputType, type: question.getType(), displayValue: question.displayValue})
 			} 
 			else if(question.isRequired ){				
 				questionResults.push({name:question.name, value: "", title:question.title, inputType:question.inputType})	

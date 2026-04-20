@@ -152,7 +152,7 @@ export default class ReviewYourAnswersPage extends Vue {
     }
 
     public beautifyResponse(value, dataItem, sectionData){        
-        
+        const type = dataItem? dataItem['type'] : "";
         const inputType = dataItem?dataItem['inputType']:""
         const inputName = dataItem?dataItem['name']:""
 
@@ -247,7 +247,9 @@ export default class ReviewYourAnswersPage extends Vue {
             return Vue.filter('beautify-date')(value) 
         else if(typeof value ==='object' && value !== null){
             return this.getMultipleTextInputResults(value)
-        }         
+        }
+        else if (type === 'radiogroup')
+            return dataItem['displayValue'];       
         else if(typeof value ==='string' && value !== ''){
 
             if(value == 'other' && sectionData[dataItem.name+'Comment']){                
