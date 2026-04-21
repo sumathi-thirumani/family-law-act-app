@@ -1,7 +1,4 @@
-export const FamilyJusticeRegistries = [
-    "4801",//"Kelowna Law Courts", 
-    "1091", //"Nanaimo Law Courts", 
-];
+export const FamilyJusticeRegistries = [];
 
 export const EarlyResolutionsRegistries = [
     "3561", // "Abbotsford Law Courts"
