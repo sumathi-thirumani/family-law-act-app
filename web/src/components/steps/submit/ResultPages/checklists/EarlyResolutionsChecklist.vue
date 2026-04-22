@@ -34,7 +34,7 @@
             </p>
             <p>
                 Registry staff and staff at any 
-                <a href="https://www2.gov.bc.ca/gov/content?id=4372A527CC574299A7C0C225496F154F"
+                <a href="https://www2.gov.bc.ca/gov/content/life-events/divorce/family-justice/who-can-help/family-justice-services-division/justice-access-centres"
                 target="_blank">Justice Access Centre</a> or 
                 <a href="https://www2.gov.bc.ca/gov/content?id=E12512BAACDF45979AEF905033BE4CEA"
                 target="_blank">Family Justice Centre</a>
@@ -186,7 +186,7 @@
             <p style="font-weight: 700">
                 Contact the 
                 <a 
-                    href="https://www2.gov.bc.ca/gov/content?id=4372A527CC574299A7C0C225496F154F" 
+                    href="https://www2.gov.bc.ca/gov/content/life-events/divorce/family-justice/who-can-help/family-justice-services-division/justice-access-centres" 
                     target="_blank">Justice Access Centre
                 </a> 
                 in person or by phone to find out more about meeting the requirements.
