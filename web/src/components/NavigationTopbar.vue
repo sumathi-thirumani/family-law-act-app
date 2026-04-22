@@ -115,7 +115,7 @@
                     <a href="https://www2.gov.bc.ca/gov/content/life-events/divorce/family-justice/who-can-help/family-justice-services-division/justice-access-centres"
                         target="_blank">Justice Access Centres
                     </a> and 
-                    <a href="https://www2.gov.bc.ca/gov/content/life-events/divorce/family-justice/who-can-help/family-justice-services-division/family-justice-counsellors"
+                    <a href="https://www2.gov.bc.ca/gov/content?id=2E7DCCDAD5A94D61B777A80AE8639ABD"
                         target="_blank">Family Justice Centres
                     </a>
                     across BC have Family Justice Counsellors and Child Support Officers specially trained to 
@@ -204,7 +204,7 @@
                         <a href="https://www2.gov.bc.ca/gov/content/life-events/divorce/family-justice/who-can-help/family-justice-services-division/justice-access-centres"
                         target="_blank">Justice Access Centres
                     </a> and 
-                    <a href="https://www2.gov.bc.ca/gov/content/life-events/divorce/family-justice/who-can-help/family-justice-services-division/family-justice-counsellors"
+                    <a href="https://www2.gov.bc.ca/gov/content?id=2E7DCCDAD5A94D61B777A80AE8639ABD"
                         target="_blank">Family Justice Centres
                     </a>                         
                         can help answer questions about the forms but they cannot help complete your forms 
