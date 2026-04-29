@@ -159,8 +159,8 @@
                     <p>Other Services:
                         <ul>
                             <li>
-                                <a  href="https://mylawbc.com/"
-                                    target="_blank">MyLawBC
+                                <a  href="https://www.familylawinbc.ca/"
+                                    target="_blank">Family Law in BC
                                 </a>
                             </li>
                             <li>
@@ -298,8 +298,8 @@
                     Amici Curiae Friendship Society (AC) provides legal assistance to individuals who 
                     require help drafting or filling out legal forms. Visit their website for more 
                     information:
-                    <a href="https://www.legalformsbc.ca/about-acfs.html#/"
-                        target="_blank">www.legalformsbc.ca/about-acfs.html#/ 
+                    <a href="https://www.legalformsbc.ca/services"
+                        target="_blank">www.legalformsbc.ca/services
                     </a>                                       
                 </p>
 
