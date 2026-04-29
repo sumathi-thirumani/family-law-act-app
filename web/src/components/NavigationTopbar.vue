@@ -269,12 +269,12 @@
                 <p>
                     The Provincial Court of BC website provides information and resources including 
                     the 
-                    <a href="https://www.provincialcourt.bc.ca/downloads/family/Standard%20Wording%20of%20Family%20Court%20Orders%20-%20January%202022.docx"
+                    <a href="https://provincialcourt.bc.ca/navigating-court-case/family/family-orders-picklists"
                         target="_blank">Family Law Picklist</a>, 
-                    <a href="https://www.provincialcourt.bc.ca/types-of-cases/family-matters"
+                    <a href="https://provincialcourt.bc.ca/navigating-court-case/family"
                         target="_blank">Resources for Family Cases
                     </a>,
-                    <a href="https://www.provincialcourt.bc.ca/about-the-court/practice-directions"
+                    <a href="https://provincialcourt.bc.ca/news-notices-policies-and-practice-directions/notices-policies-practice-directions"
                         target="_blank">Practice Directions and Notices to the Profession and the Public
                     </a>, and 
                     <a href="https://www.provincialcourt.bc.ca/judgments-decisions"
