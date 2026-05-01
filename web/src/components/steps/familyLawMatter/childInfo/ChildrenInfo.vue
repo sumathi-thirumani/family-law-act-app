@@ -210,7 +210,7 @@ export default class ChildrenInfo extends Vue {
         let location = ''
         location = filingLocationData?.ExistingCourt;                
         
-        if(Vue.filter('includedInRegistries')(location, 'early-resolutions') && (filingLocationData?.MetEarlyResolutionRequirements == 'n' || filingLocationData?.courtLocationVictoriaSurrey)){
+        if(Vue.filter('includedInRegistries')(location, 'early-resolutions') && (filingLocationData?.MetEarlyResolutionRequirements == 'n')){
             return true;
         } else {
             return false;

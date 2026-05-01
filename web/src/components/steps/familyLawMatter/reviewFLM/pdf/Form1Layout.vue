@@ -168,7 +168,7 @@
                             <!-- if additional parties -->
                             <div v-if="additionalOtherParties.length>0">
                                 <div style="margin-left: -250px; font-size: 11pt; display: block; width: 100%; float:left; margin-bottom: 5px;">
-                                    <check-box inline="inline" style="display: inline; margin: -20px" :check="true?'yes':''" text="There is an additional party."/>
+                                    <check-box inline="inline" shiftmark="-3" style="display: inline; margin: -20px" :check="true?'yes':''" text="There is an additional party."/>
                                 </div>
                                 <div v-for="(otherParty,inx) in additionalOtherParties" :key="inx">
                                     <div style="display: inline-block; font-size: 11pt; ">

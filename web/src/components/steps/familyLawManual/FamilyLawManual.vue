@@ -23,7 +23,7 @@
             <div>
                 <p class="help-header" style="font-weight: 700;">JUSTICE ACCESS CENTRES & FAMILY JUSTICE CENTRES</p>                
                 <p> 
-                    <a href="https://www2.gov.bc.ca/gov/content/justice/about-bcs-justice-system/jac"
+                    <a href="https://www2.gov.bc.ca/gov/content/life-events/divorce/family-justice/who-can-help/family-justice-services-division/justice-access-centres"
                         target="_blank">Justice Access Centres
                     </a> and 
                     <a href="https://www2.gov.bc.ca/gov/content?id=2E7DCCDAD5A94D61B777A80AE8639ABD"

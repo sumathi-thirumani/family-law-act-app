@@ -33,17 +33,17 @@
                         <div style="padding-left:24px">
                             <div style="display:block;">
                                 <check-box checkbox="" inline="inline" boxMargin="0" shiftmark="-3"
-                                    style="text-indent: 5px;" :check="exChSupInfo.abtEx.payor ? 'yes' : ''"
+                                    style="text-indent: 5px;" :check="exChSupInfo.abtEx.exstngOrdr ? 'yes' : ''"
                                     text="I have a <b>final court order</b> about child support made on <i>(date)</i>" />
-                                <GreyBoxForm style="margin-top:10px; text-indent:0rem" textwidth="10rem" beforetext="" text="" hint="">
+                                <GreyBoxForm style="margin-top:10px; text-indent:0rem" textwidth="10rem" beforetext="" :text="exChSupInfo.abtEx.exstngOrdr? exChSupInfo.abtEx.orderDate : ''" hint="">
                                 </GreyBoxForm>
                                 <span> that I want to change or cancel <b>(see attached copy of order)</b>.🠆 <i>Complete <b>Part 2</b></i></span>
                             </div>
                             <div style="display:block;">
                                 <check-box checkbox="" inline="inline" boxMargin="0" shiftmark="-3"
-                                    style="text-indent: 5px;" :check="true ? 'yes' : ''"
+                                    style="text-indent: 5px;" :check="exChSupInfo.abtEx.exstngAgrmnt ? 'yes' : ''"
                                     text="I have a <b>written agreement</b> about child support made on <i>(date)</i>" />
-                                <GreyBoxForm style="margin-top:10px; text-indent:0rem" textwidth="10rem" beforetext="" text="" hint="">
+                                <GreyBoxForm style="margin-top:10px; text-indent:0rem" textwidth="10rem" beforetext="" :text="exChSupInfo.abtEx.exstngAgrmnt? exChSupInfo.abtEx.orderDate : ''" hint="">
                                 </GreyBoxForm>
                                 <span> that I want to repeal or replace <b>(see attached copy of agreement)</b>. 🠆 <i>Complete <b>Part 3</b></i></span>
                             </div>
@@ -89,7 +89,7 @@
                             </div>
                             <div style="display:block;">
                                 <check-box checkbox="" inline="inline" boxMargin="0" shiftmark="-3"
-                                    style="text-indent: 5px;" check="exChSupInfo.abtEx.changes.spcl ? 'yes' : ''"
+                                    style="text-indent: 5px;" :check="exChSupInfo.abtEx.changes.spcl ? 'yes' : ''"
                                     text="The special or extraordinary expenses for the child(ren) have changed as follows:" />
                             </div>
                             
