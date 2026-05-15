@@ -211,14 +211,13 @@ export default class WithoutNoticeOrAttendance extends Vue {
         const needWithoutNotice = this.survey.data.needWithoutNotice;
 
         // Change type from `ACMO` to `ACMW`; if the order is related to case management and can be applied for without notice or attendance
-        if (needWithoutNotice === 'y') {
-            const newExistingOrders = existingOrders.map(o => { 
-                o.type = 'ACMW';
-                return o;
-            });
+        const newExistingOrders = existingOrders.map(o => { 
+            if (needWithoutNotice === 'y' && o.type === 'ACMO') o.type = 'ACMW';
+            if (needWithoutNotice === 'n' && o.type === 'ACMW') o.type = 'ACMO';
+            return o;
+        });
 
-            this.UpdateCommonStepResults({data:{'existingOrders': newExistingOrders}});
-        }
+        this.UpdateCommonStepResults({data:{'existingOrders': newExistingOrders}});
     }
 
     beforeDestroy() {
