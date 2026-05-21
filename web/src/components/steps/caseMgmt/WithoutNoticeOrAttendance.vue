@@ -90,6 +90,7 @@ export default class WithoutNoticeOrAttendance extends Vue {
             Vue.filter('surveyChanged')('caseMgmt'); 
             
             this.determinePages(true);
+            this.determineExistingOrders();
         })   
     }
 
@@ -203,6 +204,20 @@ export default class WithoutNoticeOrAttendance extends Vue {
                 for(const cmType of this.step.result.cmQuestionnaireSurvey.data)
                     getOrderTypeCM(cmType, true, (needWithoutNotice == 'y'));
         }
+    }
+
+    determineExistingOrders() {
+        const existingOrders = this.$store.state.Application.steps[0]['result']['existingOrders'];
+        const needWithoutNotice = this.survey.data.needWithoutNotice;
+
+        // Change type from `ACMO` to `ACMW`; if the order is related to case management and can be applied for without notice or attendance
+        const newExistingOrders = existingOrders.map(o => { 
+            if (needWithoutNotice === 'y' && o.type === 'ACMO') o.type = 'ACMW';
+            if (needWithoutNotice === 'n' && o.type === 'ACMW') o.type = 'ACMO';
+            return o;
+        });
+
+        this.UpdateCommonStepResults({data:{'existingOrders': newExistingOrders}});
     }
 
     beforeDestroy() {
