@@ -1,0 +1,43 @@
+on:
+  workflow_dispatch:
+    inputs:
+      base_branch:
+        description: Base branch to create rollup branches from (empty = repository default)
+        required: false
+        default: main
+        type: string
+      ecosystem:
+        description: Ecosystem to process
+        required: false
+        default: All
+        type: choice
+        options:
+          - All
+          - python
+          - npm/yarn/pnpm
+      artifact_output:
+        description: Export remediation-plan.json and renovate.json5 as workflow artifacts
+        required: false
+        default: true
+        type: boolean
+      dry_run:
+        description: Analyze only; do not create branches, PRs, or issues
+        required: false
+        default: true
+        type: boolean
+
+jobs:
+  invoke-security-remediation:
+    uses: sumathi-thirumani/bc-scaffold/.github/workflows/security-vulnerability-remediation.yml@feature/renovate-integration-improvments
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      security-events: write
+      vulnerability-alerts: read
+    with:
+      base_branch: ${{ inputs.base_branch }}
+      ecosystem: ${{ inputs.ecosystem }}
+      artifact_output: ${{ inputs.artifact_output }}
+      dry_run: ${{ inputs.dry_run }}
+      
