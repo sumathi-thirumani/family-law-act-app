@@ -1,0 +1,166 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Repository-specific update groups for the Vue 2 frontend and Django backend. Inherits shared update policies from the BC Gov preset.",
+  "extends": [
+    "github>bcgov/renovate-config#2026.10.29"
+  ],
+  "packageRules": [
+    {
+      "description": "Regenerate npm lockfiles consistently",
+      "matchManagers": [
+        "npm"
+      ],
+      "postUpdateOptions": [
+        "npmInstallTwice"
+      ]
+    },
+    {
+      "matchManagers": [
+        "npm"
+      ],
+      "matchPackageNames": [
+        "vue",
+        "vue-template-compiler"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "Vue runtime and compiler",
+      "groupSlug": "vue-ecosystem"
+    },
+    {
+      "matchManagers": [
+        "npm"
+      ],
+      "matchPackageNames": [
+        "@vue/cli-service",
+        "@vue/cli-plugin-babel",
+        "@vue/cli-plugin-eslint",
+        "@vue/cli-plugin-router",
+        "@vue/cli-plugin-typescript",
+        "@vue/cli-plugin-vuex"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "Vue CLI",
+      "groupSlug": "vue-cli"
+    },
+    {
+      "matchManagers": [
+        "npm"
+      ],
+      "matchPackageNames": [
+        "typescript",
+        "ts-loader"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "TypeScript tooling",
+      "groupSlug": "typescript"
+    },
+    {
+      "matchManagers": [
+        "npm"
+      ],
+      "matchPackageNames": [
+        "eslint",
+        "eslint-plugin-vue",
+        "eslint-plugin-prettier",
+        "prettier",
+        "@typescript-eslint/eslint-plugin",
+        "@typescript-eslint/parser",
+        "@vue/eslint-config-prettier",
+        "@vue/eslint-config-typescript"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "ESLint and Prettier tooling",
+      "groupSlug": "lint-tooling"
+    },
+    {
+      "matchManagers": [
+        "npm"
+      ],
+      "matchPackageNames": [
+        "vuetify",
+        "vue-cli-plugin-vuetify"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "Vuetify",
+      "groupSlug": "vuetify"
+    },
+    {
+      "matchManagers": [
+        "npm"
+      ],
+      "matchPackageNames": [
+        "bootstrap",
+        "bootstrap-vue"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "Bootstrap and BootstrapVue",
+      "groupSlug": "bootstrap-vue"
+    },
+    {
+      "matchManagers": [
+        "npm"
+      ],
+      "matchPackageNames": [
+        "survey-creator",
+        "survey-vue",
+        "surveyjs-widgets"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "SurveyJS",
+      "groupSlug": "surveyjs"
+    },
+    {
+      "matchManagers": [
+        "pip_requirements"
+      ],
+      "matchPackageNames": [
+        "django",
+        "django-filter",
+        "djangorestframework",
+        "django-cors-headers"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "Django and REST Framework",
+      "groupSlug": "django"
+    },
+    {
+      "matchManagers": [
+        "pip_requirements"
+      ],
+      "matchPackageNames": [
+        "pytest-cov",
+        "pytest-django"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "Python test tooling",
+      "groupSlug": "python-test-tooling"
+    }
+  ]
+}
