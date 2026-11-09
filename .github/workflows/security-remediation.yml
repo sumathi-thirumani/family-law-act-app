@@ -4,7 +4,7 @@ on:
       base_branch:
         description: Base branch to create rollup branches from (empty = repository default)
         required: false
-        default: main
+        default: master
         type: string
       ecosystem:
         description: Ecosystem to process
