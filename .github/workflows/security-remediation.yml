@@ -25,6 +25,11 @@ on:
         required: false
         default: true
         type: boolean
+      llm_enabled:
+        description: Group packages with an Ollama model when the repo has no Renovate config
+        required: false
+        default: false
+        type: boolean
 
 jobs:
   invoke-security-remediation:
@@ -40,4 +45,5 @@ jobs:
       ecosystem: ${{ inputs.ecosystem }}
       artifact_output: ${{ inputs.artifact_output }}
       dry_run: ${{ inputs.dry_run }}
+      llm_enabled: ${{inputs.llm_enabled}}
       
