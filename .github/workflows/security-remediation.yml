@@ -28,7 +28,7 @@ on:
 
 jobs:
   invoke-security-remediation:
-    uses: sumathi-thirumani/bc-scaffold/.github/workflows/security-vulnerability-remediation.yml@feature/renovate-integration-improvments
+    uses: sumathi-thirumani/bc-scaffold/.github/workflows/security-vulnerability-remediation.yml@feature/ollama-integration
     permissions:
       contents: write
       pull-requests: write
